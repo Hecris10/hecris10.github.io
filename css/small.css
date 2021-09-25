@@ -63,9 +63,23 @@ h1 {
 p {
     color: white;
 }
-footer a{
-    color:red;
+
+footer a:link {
+  text-decoration: none;
+    color: red;
 }
-footer a:hover, footer a:visited{
+
+footer a:visited {
+  text-decoration: none;
+    color: red;
+}
+
+footer a:hover {
+  text-decoration: none;
+    color: red;
+}
+
+footer a:active {
+  text-decoration: none;
     color: red;
 }
