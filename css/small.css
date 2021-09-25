@@ -2,69 +2,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
 body {
     font-family: 'Noto Sans JP', sans-serif;
+    font-size: .9rem;
 }
-
-
-/*tyography*/
-
-h1 {
-    font-size: 2rem;
-}
-
-
-/* HEADER MAIN FOOTER */
-
-
-/*margin*/
 
 header,
 main,
 footer {
     max-width: 760px;
     margin: 0 auto;
-    text-align: center;
 }
 
 header,
 footer {
-    width: 100%;
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
 }
 
-header img {
-    width: 10rem;
-    margin: 1rem;
-}
-
-header h1 {
-    margin: 0;
-}
-
-main h2 {
-    margin-left: 2rem;
-}
-
-footer p {
-    text-align: center;
-}
-
-
-/*color*/
-
-header,
-footer {
-    background-color: blue;
+main {
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 h1 {
-    color: white;
-    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-left: 3%;
+}
+
+li {
+    margin-left: 3rem;
+    margin-top: 1rem;
 }
 
 p {
-    color: white;
+    text-align: center;
 }
 
-p a {
-    color: red;
-    text-decoration: none;
+header img {
+    width: 17rem;
+    margin: auto;
+    display: flex;
 }
