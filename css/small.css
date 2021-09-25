@@ -63,7 +63,9 @@ h1 {
 p {
     color: white;
 }
-
+a p{
+    color: white;
+}
 footer a:link {
   text-decoration: none;
     color: red;
