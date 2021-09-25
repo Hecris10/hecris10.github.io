@@ -63,3 +63,9 @@ h1 {
 p {
     color: white;
 }
+footer a{
+    color:red;
+}
+footer a:hover, footer a:visited{
+    color: red;
+}
