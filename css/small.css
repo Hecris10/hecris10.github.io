@@ -1,50 +1,59 @@
-@charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
-body {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: .9rem;
-}
+<!DOCTYPE html>
+<html lang="en-us">
 
-header,
-main,
-footer {
-    max-width: 760px;
-    margin: 0 auto;
-}
+<head>
+    <title>Desing Principles</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Explaing three desing priciples for Lesson 02">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
 
-header,
-footer {
-    padding: 0.5rem;
-    background-color: red;
-    color: white;
-}
+<body>
+    <header>
+        <h1>Desing Principles</h1>
+        <h2>Helaman Ewerton</h2>
+    </header>
 
-main {
-    margin-top: 7%;
-    margin-bottom: 7%;
-}
+    <main>
+        <div class="column-1">
 
-h1 {
-    text-align: center;
-    font-size: 2rem;
-}
+            <h2>Visual Hierarchy</h2>
+            <img alt="Marine Traffic" src="./images/dineyplus.jpeg">
+            <h3>Disney+</h3>
+            <a href="https://www.disneyplus.com">disney+.com</a>
+            <p>This is a both perfect and simple exemple of Visual Hierarchy. Disney+ have a lot of content in their catalog. But their new productions and investments need more views than the older ones. So the new, fresh, hot or "headline content" has
+                a great and large place of view for the user click and watch. The last episode of Marvel's What If series came out thie week so "Thor and Cap Marvel got too much more attention" than the other ones.</p>
+        </div>
+        <div class="column-2">
+            <h2>PARC: Repetition</h2>
+            <img alt="Apple Store" src="./images/applestore.jpeg">
+            <h3>APPLE STORE</h3>
+            <a href="https://applestore.com">Applestore.com</a>
+            <p>What can I say? How many times the name Iphone can be read less then one second the page has loaded??Iphone is their flagship and are emphasized through all the page. And not only the last Iphone but as the last models too.</p>
+        </div>
+        <div class="column-3">
+            <h2>Hick's Law</h2>
+            <img alt="IMDB" src="./images/IMDB.png" />
+            <h3>IMDB</h3>
+            <a href="https://www.imdb.com/">imdb.com</a>
+            <p>IMDB contains a lot of content so Hick's Law it's being used not just on Menus but also be using on the main. On the top a slide show with hot content and other few yellow options that can include all the page can provides even having a lot
+                of content avaiable and daily publishing.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <footer>
+            <p>©<span id="year"></span> | Helaman Ewerton | Brazil | <a href="https://www.byui.edu/online">BYUI | Online Learning</a></p>
+            <p>Last Uptdated: <span id="lastupdate"></span></p>
+        </footer>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
 
-h2 {
-    font-size: 1rem;
-    margin-left: 3%;
-}
-
-li {
-    margin-left: 3rem;
-    margin-top: 1rem;
-}
-
-p {
-    text-align: center;
-}
-
-header img {
-    width: 17rem;
-    margin: auto;
-    display: flex;
-}
+</html>
