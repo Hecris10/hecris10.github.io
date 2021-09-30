@@ -56,6 +56,15 @@ p {
     margin-top: .8rem;
 }
 
+p a,
+p a:link,
+p a:hover,
+p a:visited,
+p a:active {
+    color: white;
+    font-weight: bold;
+}
+
 footer p {
     text-align: center;
 }
