@@ -48,7 +48,8 @@ p a:link,
 p a:hover,
 p a:visited,
 p a:active {
-    color: red;
+    color: white;
+    font-weight: bold;
 }
 
 main a,
