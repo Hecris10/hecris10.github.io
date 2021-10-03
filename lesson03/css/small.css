@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+body {
+    width: 100%;
+}
+
+nav {
+    background-color: #A80053;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #FE0001;
+}
+
+html {
+    max-width: 100%;
+}
+
+img {
+    width: 10rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+h1,
+h2 {
+    color: #A80053;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3,
+p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p a,
+p a:link,
+p a:hover,
+p a:visited,
+p a:active {
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #A80053;
+    color: white;
+}

@@ -1,0 +1,83 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto;
+    text-align: center;
+}
+
+.main-color {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #A80053;
+    color: white;
+    margin: 3rem;
+    padding: 3rem;
+}
+
+.secundary-color {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: red;
+    color: black;
+    margin: 3rem;
+    padding: 2.5rem;
+}
+
+.p-color {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: black;
+    color: white;
+    margin: 3rem;
+    padding: 2rem;
+}
+
+.backg-color {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: white;
+    color: black;
+    margin: 3rem;
+    padding: 1.5rem;
+    border: solid;
+    border-radius: 4px;
+}
+
+.obs-color {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: red;
+    color: black;
+    margin: 3rem;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 32.5em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .main-color {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .secundary-color {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .p-color {
+        grid-column: 3;
+        grid-row: 1;
+        ;
+    }
+    .backg-color {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .obs-color {
+        grid-column: 2;
+        grid-row: 2;
+    }
+}
