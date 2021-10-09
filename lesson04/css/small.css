@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+/*Typography*/
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3,
+p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+
+/*Menu*/
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #A80053;
+    border: 1px solid #A80053;
+}
+
+header img {
+    width: 6rem;
+    float: left;
+    margin: 0;
+    margin-top: -1.4rem;
+}
+
+header h1 {
+    padding: 0;
+    color: #A80053;
+    margin: 0;
+    text-justify: center;
+}
+
+.description {
+    padding: 0;
+    margin: 0;
+    color: red;
+}
+
+header {
+    margin-top: 1rem;
+    padding: 0;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+
+/*structures*/
+
+main,
+footer {
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav,
+footer {
+    background-color: #A80053;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*==========MAIN CONTENT==================*/
+
+.container {
+    background-color: white;
+    color: black;
+    border: 1px solid #A80053;
+    padding: 1rem;
+    margin: 2rem 0 3rem 0;
+}
