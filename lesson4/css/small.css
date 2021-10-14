@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+/*Typography*/
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3,
+p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 1.34rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 0.8rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+
+/*Menu*/
+
+nav {
+    height: 20%;
+    padding: 0;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 0;
+}
+
+nav button p {
+    padding: 1%;
+    margin: 2% auto 2% auto;
+}
+
+nav ul.hide {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .2rem 2%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #A80053;
+    border: 1px solid #A80053;
+}
+
+header img {
+    float: left;
+    margin: 0;
+    width: 25%;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+header h1 {
+    padding: 0;
+    color: #A80053;
+    margin: 0;
+    text-justify: center;
+}
+
+.description {
+    padding: 0;
+    margin: 0;
+    color: red;
+}
+
+header {
+    width: 85%;
+    margin: 1rem auto 3rem auto;
+    padding: 0;
+}
+
+
+/*structures*/
+
+html {
+    background-color: #FFEBF5;
+}
+
+main {
+    background-color: white;
+    padding: 1rem 0 1rem 0;
+}
+
+footer {
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav,
+footer {
+    background-color: #A80053;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*==========MAIN CONTENT==================*/
+
+.container {
+    background-color: white;
+    color: black;
+    border: 1px solid #A80053;
+    padding: 1rem;
+    margin: 3rem auto 3rem auto;
+    max-width: 65%;
+}
