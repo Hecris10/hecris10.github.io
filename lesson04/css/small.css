@@ -16,11 +16,16 @@ p {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.34rem;
 }
 
 
 /*Menu*/
+
+nav {
+    height: 20%;
+    padding: 0;
+}
 
 nav button {
     background-color: transparent;
@@ -29,7 +34,12 @@ nav button {
     color: white;
     font-weight: bold;
     width: 100%;
-    padding: .8rem 2%;
+    padding: 0;
+}
+
+nav button p {
+    padding: 1%;
+    margin: 2% auto 2% auto;
 }
 
 nav ul.hide {
@@ -45,7 +55,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    padding: .8rem 2%;
+    padding: .2rem 2%;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -59,10 +69,11 @@ nav ul li a:hover {
 }
 
 header img {
-    width: 6rem;
     float: left;
     margin: 0;
-    margin-top: -1.4rem;
+    width: 25%;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 header h1 {
@@ -79,10 +90,9 @@ header h1 {
 }
 
 header {
-    margin-top: 1rem;
+    width: 85%;
+    margin: 1rem auto 2rem auto;
     padding: 0;
-    margin-bottom: 2rem;
-    width: 100%;
 }
 
 
@@ -123,5 +133,6 @@ footer a {
     color: black;
     border: 1px solid #A80053;
     padding: 1rem;
-    margin: 2rem 0 3rem 0;
+    margin: 3rem auto;
+    max-width: 65%;
 }

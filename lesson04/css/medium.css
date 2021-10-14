@@ -21,12 +21,12 @@
     }
     header {
         width: 90%;
-        margin: 1.5rem auto;
-        margin-bottom: 4rem;
+        margin: 1.5rem auto 8rem auto;
     }
     header img {
         width: 25%;
         height: auto;
+        margin: 0;
     }
     /*FONTS*/
     h1 {
@@ -39,6 +39,6 @@
         font-size: 1.2rem
     }
     p {
-        font-size: 1rem;
+        font-size: 18px;
     }
 }
