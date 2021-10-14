@@ -17,7 +17,7 @@ main {
 .secundary-color {
     grid-column: 2;
     grid-row: 1;
-    background-color: red;
+    background-color: #FFEBF5;
     color: black;
     margin: 3rem;
     padding: 2.5rem;
