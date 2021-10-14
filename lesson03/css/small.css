@@ -61,6 +61,11 @@ p a:active {
     font-weight: bold;
 }
 
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
 footer {
     background-color: #A80053;
     color: white;
