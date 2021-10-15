@@ -67,7 +67,7 @@ nav button {
     background-color: #FFEBF5;
     color: red;
     border: 1px solid #A80053;
-    box-shadow: red;
+    box-shadow: 0 0 30px #A80053;
 }
 
 nav button p {
@@ -258,7 +258,7 @@ iframe {
     background: radial-gradient(#eee, #FFEBF5);
     border: 1px solid #000;
     padding: 1.5rem;
-    box-shadow: 0 0 30px #333;
+    box-shadow: 0 0 30px #A80053;
     opacity: .9;
     margin: 0;
 }
