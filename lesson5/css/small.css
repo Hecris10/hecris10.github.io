@@ -61,6 +61,8 @@ nav button {
     font-weight: bold;
     width: 100%;
     padding: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .active {
@@ -115,7 +117,7 @@ header h1 {
     padding-bottom: 0;
     color: #A80053;
     margin: 0;
-    text-justify: center;
+    text-align: center;
 }
 
 .description {
@@ -190,7 +192,7 @@ iframe {
 }
 
 .contact-pics img {
-    width: 40%;
+    width: 70%;
     display: flex;
     margin: 0 auto;
 }
@@ -307,7 +309,7 @@ iframe {
 .article-div h2 {
     text-align: left;
     color: red;
-    font-weight: red;
+    font-weight: bold;
 }
 
 .author {
