@@ -17,6 +17,7 @@ p {
 
 h1 {
     font-size: 1.34rem;
+    color: #A80053;
 }
 
 h2 {
@@ -29,6 +30,19 @@ h3 {
 
 p {
     font-size: 0.8rem;
+}
+
+
+/*TOP*/
+
+.top {
+    display: none;
+    color: #A80053;
+    text-align: center;
+    font-weight: bolder;
+    background-color: white;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    padding: 0.009rem 0;
 }
 
 
@@ -53,6 +67,7 @@ nav button {
     background-color: #FFEBF5;
     color: red;
     border: 1px solid #A80053;
+    box-shadow: red;
 }
 
 nav button p {
@@ -156,14 +171,96 @@ footer a {
     font-weight: bold;
 }
 
+title {
+    margin: 0;
+    padding: 0;
+}
+
 
 /*==========MAIN CONTENT==================*/
 
 .container {
     background-color: white;
     color: black;
-    border: 1px solid #A80053;
     padding: 1rem;
-    margin: 3rem auto 3rem auto;
-    max-width: 65%;
+    margin: 1rem auto 3rem auto;
+    max-width: 80%;
+}
+
+
+/*==========PLACE PAGE CONTENT HERE==================*/
+
+.hero img {
+    margin: 0 auto -0.5rem auto;
+    width: 100%;
+}
+
+.summary {
+    display: block;
+    background: radial-gradient(#eee, #FFEBF5);
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+    margin: 0;
+}
+
+.summary h3 {
+    color: red;
+}
+
+.forecast {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.symbol {
+    font-size: 230%;
+    padding: 1rem;
+    margin: 0;
+    background-color: #FFEBF5;
+}
+
+.day-forecast {
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid #A80053;
+    background-color: #A80053;
+    color: white;
+}
+
+.day {
+    flex: 1 0 1%;
+    padding: 0;
+    border: 1px solid #A80053;
+}
+
+.temperature {
+    background-color: #FFEBF5;
+    margin: 0;
+    padding: 1rem;
+}
+
+.article-div {
+    background-color: #FFEBF5;
+}
+
+.article-div h2 {
+    text-align: left;
+}
+
+.author {
+    text-align: left;
+}
+
+.article-div img {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.article {
+    text-align: justify;
 }
