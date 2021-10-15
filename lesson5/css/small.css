@@ -248,6 +248,8 @@ title {
 
 .article-div h2 {
     text-align: left;
+    color: red;
+    font-weight: red;
 }
 
 .author {
