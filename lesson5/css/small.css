@@ -73,7 +73,7 @@ nav button {
 }
 
 nav button p {
-    padding: 1%;
+    padding: 5px;
     margin: 2% auto 2% auto;
 }
 
@@ -90,7 +90,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    padding: .2rem 2%;
+    padding: 10px 2%;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -148,11 +148,6 @@ main {
     margin-bottom: -1rem;
 }
 
-footer {
-    width: 95%;
-    margin: 0 auto;
-}
-
 nav,
 footer {
     background-color: #A80053;
@@ -164,6 +159,7 @@ footer {
     width: 95%;
     margin: 0 auto;
     padding-bottom: 1rem;
+    padding-top: 0.5rem;
 }
 
 title {
@@ -187,7 +183,7 @@ iframe {
     background-color: #FFEBF5;
     margin-bottom: 0;
     padding: 1rem;
-    margin: 1rem auto 0 auto;
+    margin: 1rem auto 0.5rem auto;
     max-width: 80%;
 }
 

@@ -3,10 +3,7 @@ var n = date.getDay();
 var day = date.getDate();
 var month = date.getMonth();
 var year = date.getFullYear();
-console.log(n);
-console.log(day);
-console.log(month);
-console.log(year);
+
 
 if (n == 0) {
     n = "Sunday";
