@@ -52,11 +52,21 @@
         left: 50px;
         padding: .5rem;
     }
-    article.div {}
     .article-div img {
         float: right;
         position: relative;
         padding: 1.4rem;
         width: 50%;
+    }
+    .contato {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    iframe {
+        grid-column: 1;
+    }
+    .contacts-data {
+        grid-column: 2;
     }
 }

@@ -241,8 +241,9 @@ iframe {
 }
 
 .hero img {
-    margin: 0 auto -0.5rem auto;
+    margin: 0 auto;
     width: 100%;
+    display: flex;
 }
 
 .summary {

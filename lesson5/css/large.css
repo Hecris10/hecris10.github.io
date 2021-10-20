@@ -32,8 +32,11 @@
     /*==========PLACE PAGE CONTENT HERE==================*/
     .summary {
         position: absolute;
-        top: 70px;
-        left: 70px;
+        top: 90px;
+        left: 170px;
         padding: .5rem;
+    }
+    .hero img {
+        width: 85%;
     }
 }
