@@ -3,10 +3,7 @@ var n = date.getDay();
 var day = date.getDate();
 var month = date.getMonth();
 var year = date.getFullYear();
-console.log(n);
-console.log(day);
-console.log(month);
-console.log(year);
+
 
 if (n == 0) {
     n = "Sunday";
@@ -49,11 +46,12 @@ if (month == 0) {
 } else {
     month = "December"
 }
+console.log(n);
 
 date = n + ", " + month + " " + day + ", " + year;
 document.querySelector('#date').textContent = date;
 
-if (n == "Satuday") {
+if (n == "Friday") {
     document.querySelector("#message-top").style.display = "block";
 }
 
@@ -62,5 +60,4 @@ const mainnav = document.querySelector('.navigation')
 
 hambutton.addEventListener('click', () => { mainnav.classList.toggle('responsive') }, false);
 
-// To solve the mid resizing issue with responsive class on
 window.onresize = () => { if (window.innerWidth > 760) mainnav.classList.remove('responsive') };

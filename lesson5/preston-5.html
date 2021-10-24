@@ -70,8 +70,8 @@
 
         <div class="hero">
             <picture>
-                <source srcset="/images/preston-hero.jpg" media="(min-width:1000px)">
-                <source srcset="images/preston-hero-medium.jpg" media="(min-width:45rem) and (max-width:1000px)">
+                <source srcset="./images/preston-hero.jpg" media="(min-width:1000px)">
+                <source srcset="./images/preston-hero-medium.jpg" media="(min-width:45rem) and (max-width:1000px)">
                 <img srcset="./images/preston-hero-small.jpg" alt="hero-image-presto">
 
             </picture>
@@ -79,10 +79,10 @@
                 <h3>Weather Summary</h3>
                 <hr>
                 <p>Currently: <span>Sunny</span></p>
-                <p>High: <span>76</span>ºF</p>
-                <p>Wind Chill: <span>45</span>ºF</p>
+                <p>High: <span id='temperature'>45</span>ºF</p>
+                <p>Wind Chill: <span id='chill'></span>ºF</p>
                 <p>Humidity: <span>69</span>%</p>
-                <p>Wind Speed: <span>5</span> mph</p>
+                <p>Wind Speed: <span id='wind_speed'>12</span> mph</p>
             </section>
 
 
@@ -158,6 +158,7 @@
         <p><span id="date"></span></p>
     </footer>
     <script src="./js/script.js "></script>
+    <script src="./js/windchill.js"></script>
 </body>
 
 </html>
