@@ -14,7 +14,7 @@
     
     h1 {
         font-size: 1.34rem;
-        color: #A80053;
+        color: #EB0013;
     }
     
     h2 {
@@ -44,7 +44,7 @@
     nav {
         margin: 0 auto;
         max-width: 100%;
-        background-color: #EB0013;
+        background-color: #A80053;
     }
     
     .navigation {
@@ -76,7 +76,6 @@
         color: #A80053;
         background-color: white;
         box-shadow: 0 0 30px white;
-        border: 1px solid #A80053;
     }
     
     .responsive li {
@@ -120,7 +119,7 @@
     
     header {
         width: 85%;
-        margin: 1rem auto 0 auto;
+        margin: 1rem auto 2rem auto;
         padding: 0;
     }
     /*structures*/
@@ -137,7 +136,7 @@
     
     nav,
     footer {
-        background-color: #EB0013;
+        background-color: #A80053;
         color: white;
     }
     
