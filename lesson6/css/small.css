@@ -79,7 +79,7 @@ nav {
 .navigation a:hover {
     color: #A80053;
     background-color: white;
-    box-shadow: 0 0 30px #A80053;
+    box-shadow: 0 0 30px white;
 }
 
 .responsive li {
@@ -88,6 +88,7 @@ nav {
 
 .active {
     background-color: #FFEBF5;
+    box-shadow: 0 0 30px #A80053;
 }
 
 .active p {

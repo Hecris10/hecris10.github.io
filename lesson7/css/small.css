@@ -79,7 +79,7 @@ nav {
 .navigation a:hover {
     color: #A80053;
     background-color: white;
-    box-shadow: 0 0 30px #A80053;
+    box-shadow: 0 0 30px white;
 }
 
 .responsive li {
@@ -88,6 +88,7 @@ nav {
 
 .active {
     background-color: #FFEBF5;
+    box-shadow: 0 0 30px #A80053;
 }
 
 .active p {
@@ -230,87 +231,25 @@ iframe {
 
 /*==========PLACE PAGE CONTENT HERE==================*/
 
-.hero {
-    color: black;
-    padding: 1rem;
-    margin: 1rem auto 1rem auto;
+figcaption {
     max-width: 80%;
+    margin-left: 0.5rem;
+    padding: 1rem;
 }
 
-.hero img {
-    margin: 0 auto;
+.gallery-images {
+    text-align: center;
+}
+
+.gallery-images img[data-src] {
+    filter: blur(0.8em);
+}
+
+.gallery-images img {
+    filter: blur(0em);
+    transition: filter 1.5s;
+    display: flex;
     width: 100%;
-    display: flex;
-}
-
-.summary {
-    display: block;
-    background: radial-gradient(#eee, #FFEBF5);
-    border: 1px solid #000;
-    padding: 1.5rem;
-    box-shadow: 0 0 30px #A80053;
-    opacity: .9;
-    margin: 0;
-}
-
-.summary h3 {
-    color: red;
-}
-
-.forecast {
-    display: none;
-    flex-wrap: wrap;
-    padding: 0;
-}
-
-.symbol {
-    font-size: 230%;
-    padding: 1rem 0;
-    margin: 0;
-    background-color: #FFEBF5;
-}
-
-.day-forecast {
-    margin: 0;
-    padding: 1rem 0;
-    border: 1px solid #A80053;
-    background-color: #A80053;
-    color: white;
-}
-
-.day {
-    flex: 1 0 1%;
-    padding: 0;
-    border: 1px solid #A80053;
-}
-
-.temperature {
-    background-color: #FFEBF5;
-    margin: 0;
-    padding: 1rem 0;
-}
-
-.article-div {
-    background-color: #FFEBF5;
-}
-
-.article-div h2 {
-    text-align: left;
-    color: red;
-    font-weight: bold;
-}
-
-.author {
-    text-align: left;
-}
-
-.article-div img {
-    width: 70%;
-    margin: 0 auto;
-    display: flex;
-    padding-top: 1rem;
-}
-
-.article {
-    text-align: justify;
+    height: auto;
+    margin: auto;
 }
