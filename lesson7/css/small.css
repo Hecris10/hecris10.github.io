@@ -84,11 +84,11 @@
     
     .active {
         background-color: #FFEBF5;
-        box-shadow: 0 0 30px #EB0013;
+        box-shadow: 0 0 30px #A80053;
     }
     
     .active p {
-        color: red;
+        color: #A80053;
     }
     
     header img {
