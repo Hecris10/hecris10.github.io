@@ -84,11 +84,11 @@
     
     .active {
         background-color: #FFEBF5;
-        box-shadow: 0 0 30px #A80053;
+        box-shadow: 0 0 30px #EB0013;
     }
     
     .active p {
-        color: #A80053;
+        color: red;
     }
     
     header img {
@@ -220,26 +220,3 @@
         border: 1px solid #A80053;
     }
     /*==========PLACE PAGE CONTENT HERE==================*/
-    
-    figcaption {
-        max-width: 80%;
-        margin-left: 0.5rem;
-        padding: 1rem;
-    }
-    
-    .gallery-images {
-        text-align: center;
-    }
-    
-    .gallery-images img[data-src] {
-        filter: blur(0.8em);
-    }
-    
-    .gallery-images img {
-        filter: blur(0em);
-        transition: filter 1.5s;
-        display: flex;
-        width: 100%;
-        height: auto;
-        margin: auto;
-    }

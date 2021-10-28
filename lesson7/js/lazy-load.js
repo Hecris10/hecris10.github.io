@@ -6,6 +6,7 @@ const imgOptions = {
 };
 
 const loadImages = (image) => {
+    var effect = document.querySelector('#gallery');
     image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => { image.removeAttribute('data-src'); };
 };
@@ -25,6 +26,6 @@ if ('IntersectionObserver' in window) {
     });
 } else {
     imagesToLoad.forEach(img => {
-        loadImage(img);
+        loadImages(img);
     });
 }
