@@ -1,0 +1,81 @@
+    @media only screen and (min-width: 32.5rem) {
+        header h1 {
+            font-size: 3rem;
+            padding-top: 1rem;
+        }
+        header .description {
+            font-size: 1.8rem;
+        }
+        header {
+            width: 90%;
+            margin: 1.5rem auto 5rem auto;
+        }
+        header img {
+            width: 25%;
+            height: auto;
+            margin: 0;
+        }
+        .navigation {
+            display: flex;
+        }
+        .navigation li {
+            display: block;
+            /* change state in small view */
+            flex: 1 1 auto;
+        }
+        .navigation a {
+            text-align: center;
+        }
+        .navigation li:first-child {
+            display: none;
+        }
+        /*FONTS*/
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            font-size: 1.8rem
+        }
+        h3 {
+            font-size: 1.2rem
+        }
+        p {
+            font-size: 18px;
+        }
+        /*==========PLACE PAGE CONTENT HERE==================*/
+        .contato {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+        }
+        iframe {
+            grid-column: 1;
+        }
+        .contacts-data {
+            grid-column: 2;
+        }
+        form fieldset {
+            margin: 1rem 5rem;
+        }
+        .info input {
+            height: 20rem;
+            width: 30rem;
+            padding: 1rem;
+        }
+        input.submitBtn {
+            border-radius: 1rem;
+            margin: 1rem 5rem;
+            height: 2.5rem;
+        }
+        form label.top input,
+        form label.top select {
+            width: 80%;
+            display: flex;
+            margin: auto;
+            height: 2rem;
+        }
+        fieldset p {
+            margin: 1rem 5rem;
+            display: flex;
+        }
+    }

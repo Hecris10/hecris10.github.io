@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lessom 7, activity with images about the gallery page of the weather web site">
+    <title>Gallery | Climate Connection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="shortcut icon" href="./favicon.png">
+</head>
+
+<body>
+    <header>
+        <img src='./images/icon.png' alt="Climate Connection Logo">
+        <h1 class="title">CLIMATE CONNECTION</h1>
+        <p class="description">connect to your weather</p>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a class="ham" href="#">
+                    <p>&#9776; MENU</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>HOME</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>🏕 PRESTON</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>❄ SODA SPRINGS</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>🐟 FISH HAVEN</p>
+                </a>
+            </li>
+            <li>
+                <a class='active' href="#">
+                    <p>⚡ STORM CENTER</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>📸 GALLERY</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="title">
+            <h1>STORM CENTER</h1>
+        </div>
+        <div class="visit">
+            <p><span class="last_visit"></span></p>
+        </div>
+        <form method="get" action="./greetings.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label class="top"><p>First Name*</p><input type="text" name="fname" required></label>
+                <label class="top"><p>Email </p><input type="email" name="email" placeholder="login@youremail.com"></label>
+                <label class="top"><p>Phone</p><input type="phone" name="phone" required></label>
+                <label class="top"><p>Zip Code</p><input type="number" name="zip" required></label>
+                <label class="top"><p>Storm Date</p><input type="date" name="storm-date"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Report</legend>
+                <label class="sbs">Storm Type </p><select name="storm-type">
+                    <option disabled selected>Select Type</option>
+                    <option value="flash">Flash</option>
+                    <option value="flood">Flood</option>
+                    <option value="hail">Hail</option>
+                    <option value="hurricane">Hurricane</option>
+                    <option value="thunderstorm">Thunderstorm</option>
+                    <option value="tornado">Tornado</option>
+                </select>
+            </label>
+                <p>Storm Severity</p> <input type="range" value="1" min="1" max="10" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">1</span>
+                <label class="sbs">Region <select name="region">
+                    <option selected disabled><p>Select Region</p></option>
+                    <option value="preston"><p>Preston</p></option>
+                    <option value="soda"><p>Soda Springs</p></option>
+                    <option value="fish"><p>Fish Haven</p></option>
+                </select></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Safety</legend>
+                Are you in danger?
+                <label class="sbs"><input type="radio" name="danger" value="Yes">Yes</input></label>
+                <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</input></label>
+                <label class="sbs"><input type="radio" name="danger" value="No">No</input></label>
+
+                <label class="top">Describe the situation<br>
+                    <div class="info">
+                     <input type="textarea" name="information">
+                    </div>
+                </fieldset>
+            <input class="submitBtn" type="submit" name="send" value="Send Your Storm Report">
+        </form>
+
+        <div class="contato ">
+
+            <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.25058134018!2d-111.90281327189682!3d42.100442153726405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1634316286896!5m2!1spt-BR!2sbr "
+                width="275 " height="300 " style="border:0; " allowfullscreen=" " loading="lazy "></iframe>
+
+            <div class="contacts-data ">
+                <h3>CLIMATE CONNECTION</h3>
+                <p>4th Street, World Map
+                </p>
+                <p>55555-44444</p>
+                <p>talktous@climateconnection.com</p>
+
+                <div class="contact-pics ">
+                    <a class="insta " href="# "><img alt="Insta " src="./images/instagram.png "></a>
+                    <a class="face " href="# "><img alt="Facebook " src="./images/facebook.png "></a>
+                    <a class="whats " href="# "><img alt="Whatsapp " src="./images/whatsapp.png "></a>
+                    <a class="twitter " href="# "><img alt="Twitter " src="./images/twitter.png "></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;CLIMATE CONNECTION | Helamã Ewerton | <a href="https://www.byui.edu/online ">BYUI | Online Learning</a></p>
+        <p><span id="date "></span></p>
+    </footer>
+    <script src="./js/script.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js "></script>
+    <script src="./js/webfontload.js "></script>
+    <script src="./js/lazy-load.js "></script>
+</body>
+
+</html>
