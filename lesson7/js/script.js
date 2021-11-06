@@ -51,9 +51,6 @@ console.log(n);
 date = n + ", " + month + " " + day + ", " + year;
 document.querySelector('#date').textContent = date;
 
-if (n == "Friday") {
-    document.querySelector("#message-top").style.display = "block";
-}
 
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')

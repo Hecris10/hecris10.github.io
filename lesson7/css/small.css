@@ -219,4 +219,15 @@
         max-width: 80%;
         border: 1px solid #A80053;
     }
+    
+    .visit p {
+        text-align: center;
+        color: red;
+        font-weight: bold;
+    }
     /*==========PLACE PAGE CONTENT HERE==================*/
+    
+    figure img:hover {
+        box-shadow: 0 0 50px #A80053;
+    }
+    /* rounded corners - boxmodel */
