@@ -1,0 +1,76 @@
+    @media only screen and (min-width: 32.5rem) {
+        header h1 {
+            font-size: 3rem;
+            padding-top: 1rem;
+        }
+        header .description {
+            font-size: 1.8rem;
+        }
+        header {
+            width: 90%;
+            margin: 1.5rem auto 5rem auto;
+        }
+        header img {
+            width: 25%;
+            height: auto;
+            margin: 0;
+        }
+        .navigation {
+            display: flex;
+        }
+        .navigation li {
+            display: block;
+            /* change state in small view */
+            flex: 1 1 auto;
+        }
+        .navigation a {
+            text-align: center;
+        }
+        .navigation li:first-child {
+            display: none;
+        }
+        /*FONTS*/
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            font-size: 1.8rem
+        }
+        h3 {
+            font-size: 1.2rem
+        }
+        p {
+            font-size: 18px;
+        }
+        /*==========PLACE PAGE CONTENT HERE==================*/
+        .hero {
+            position: relative;
+        }
+        #sections {
+            margin: auto 4rem;
+        }
+        .card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-row: auto;
+            margin: .5rem;
+        }
+        #SodaSprings,
+        #Preston {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        #img-SodaSprings,
+        #img-Preston {
+            grid-column: 2;
+            grid-row: 1;
+        }
+        #FishHaven {
+            grid-column: 2;
+            grid-row: 1;
+        }
+        #img-FishHaven {
+            grid-column: 1;
+            grid-row: 1;
+        }
+    }
