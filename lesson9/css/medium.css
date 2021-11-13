@@ -73,4 +73,12 @@
             grid-column: 1;
             grid-row: 1;
         }
+        .events {
+            display: grid;
+            grid-column: 1fr 1fr;
+            grid-row: auto;
+        }
+        .event-container {
+            grid-column: auto;
+        }
     }

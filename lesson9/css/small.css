@@ -254,6 +254,10 @@ iframe {
     margin: 1rem;
 }
 
+.card h2 {
+    color: #A80053;
+}
+
 #img-SodaSprings,
 #img-FishHaven,
 #img-Preston {
@@ -261,4 +265,18 @@ iframe {
     display: flex;
     margin: auto;
     margin-top: 1rem;
+}
+
+.events-h2 {
+    color: red;
+}
+
+.event-container {
+    background-color: #FFEBF5;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.event-container h3 {
+    color: #A80053;
 }
