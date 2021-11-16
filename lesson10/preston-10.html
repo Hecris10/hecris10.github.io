@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Idaho | Climate Connection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="shortcut icon" href="./favicon.png">
+</head>
+
+<body>
+    <div class="top" id="message-top">
+        <h2>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</h2>
+    </div>
+    <header>
+        <img src='./images/icon.png' alt="Climate Connection Logo">
+        <h1 class="title">CLIMATE CONNECTION</h1>
+        <p class="description">connect to your weather</p>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a class="ham" href="#">
+                    <p>&#9776; MENU</p>
+                </a>
+            </li>
+            <li>
+                <a href="../lesson9/index.html">
+                    <p>HOME</p>
+                </a>
+            </li>
+            <li>
+                <a class='active' href="#">
+                    <p>🏕 PRESTON</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>❄ SODA SPRINGS</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>🐟 FISH HAVEN</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>⚡ STORM CENTER</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>📸 GALLERY</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="title">
+            <h1>PRESTON IDAHO</h1>
+        </div>
+
+        <div class="hero">
+            <picture>
+                <source srcset="./images/preston-hero.jpg" media="(min-width:1000px)">
+                <source srcset="./images/preston-hero-medium.jpg" media="(min-width:45rem) and (max-width:1000px)">
+                <img src="./images/preston-hero-small.jpg" alt="hero-image-presto">
+
+            </picture>
+            <section class="summary">
+                <h3>Wather Summary</h3>
+                <hr>
+                <p>Current: <span id="current"></span>°F</p>
+                <p>High: <span id="high"></span>°F</p>
+                <p>Wind Chill: <span id="wind"></span>ºF</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="speed"></span> mph</p>
+            </section>
+
+
+        </div>
+
+        <div class="container forecast">
+
+            <div class="day day1" id='day1'>
+                <p class="day-forecast"><span id='forecast-name-1'></span></p>
+
+            </div>
+            <div class="day day2" id='day2'>
+                <p class="day-forecast"><span id='forecast-name-2'></span></p>
+
+            </div>
+            <div class="day day3" id='day3'>
+                <p class="day-forecast"><span id='forecast-name-3'></span></p>
+
+            </div>
+            <div class="day day4" id='day4'>
+                <p class="day-forecast"><span id='forecast-name-4'></span></p>
+
+            </div>
+            <div class="day day5" id='day5'>
+                <p class="day-forecast"><span id='forecast-name-5'></span></p>
+
+            </div>
+        </div>
+        <div class="container article-div">
+            <img src="./images/article-image.jpg" alt="article img">
+            <h2>Preston</h2>
+            <p class="author">Helamã Ewerton</p>
+
+
+            <p class="article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut quam metus. Vivamus posuere sit amet magna in eleifend. Donec dictum orci non eros vulputate, vel blandit purus eleifend. Nullam dignissim tortor ex, et sollicitudin eros ultrices
+                at. Integer quis nisl vitae ligula ullamcorper sagittis. Quisque rhoncus nibh ut vehicula blandit. Nullam hendrerit mi sit amet luctus suscipit. Cras maximus, lorem hendrerit tristique lacinia, ex tellus consectetur turpis, sit amet imperdiet
+                neque nulla sit amet elit. Proin non diam nec turpis consequat cursus id sit amet metus. Nulla sit amet lacus blandit magna semper varius vitae quis leo. Aenean commodo quam sed luctus venenatis. Mauris et urna nec metus gravida rutrum
+                eu quis ligula. Nunc id bibendum augue, suscipit consectetur elit. Donec nec sollicitudin magna. Nullam libero tortor, ornare vitae arcu et, ultricies posuere leo. Nullam auctor euismod felis, non maximus ex vehicula sit amet. Nam nulla
+                metus, scelerisque vel ipsum quis, volutpat iaculis sapien. Donec metus enim, fringilla sit amet nunc in, placerat mattis leo. Proin tristique sem in tristique sodales. Proin mattis purus ut interdum molestie. Cras elementum turpis in
+                lacus sollicitudin, vel vestibulum ligula hendrerit. Nunc scelerisque pretium placerat. Quisque id accumsan quam, nec tincidunt est. Aliquam efficitur scelerisque velit, ac viverra justo condimentum at.</p>
+        </div>
+
+
+        <div class="contato">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.25058134018!2d-111.90281327189682!3d42.100442153726405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1634316286896!5m2!1spt-BR!2sbr"
+                width="275" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <div class="contacts-data">
+                <h3>CLIMATE CONNECTION</h3>
+                <p>4th Street, World Map
+                </p>
+                <p>55555-44444</p>
+                <p>talktous@climateconnection.com</p>
+
+                <div class="contact-pics">
+                    <a class="insta" href="#"><img alt="Insta" src="./images/instagram.png"></a>
+                    <a class="face" href="#"><img alt="Facebook" src="./images/facebook.png"></a>
+                    <a class="whats" href="#"><img alt="Whatsapp" src="./images/whatsapp.png"></a>
+                    <a class="twitter" href="#"><img alt="Twitter" src="./images/twitter.png"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;CLIMATE CONNECTION | Helamã Ewerton | <a href="https://www.byui.edu/online ">BYUI | Online Learning</a></p>
+        <p><span id="date"></span></p>
+    </footer>
+    <script src="./js/script.js "></script>
+    <script src="./js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./js/webfontload.js"></script>
+    <script src="./js/weather.js"></script>
+</body>
+
+</html>
