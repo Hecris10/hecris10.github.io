@@ -1,0 +1,16 @@
+video {
+    display: flex;
+    margin: 5% auto auto auto;
+    width: 50%;
+    height: 50%;
+}
+
+header {
+    text-align: center;
+    background-color: #7E35FD;
+    padding: 3rem;
+}
+
+h4 {
+    text-align: center
+}
