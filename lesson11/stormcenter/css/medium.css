@@ -43,48 +43,39 @@
             font-size: 18px;
         }
         /*==========PLACE PAGE CONTENT HERE==================*/
-        .hero {
-            position: relative;
-        }
-        #sections {
-            margin: auto 4rem;
-        }
-        .card {
+        .contato {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-row: auto;
-            margin: .5rem;
-        }
-        #SodaSprings,
-        #Preston {
-            grid-column: 1;
-            grid-row: 1;
-        }
-        #img-SodaSprings,
-        #img-Preston {
-            grid-column: 2;
-            grid-row: 1;
-        }
-        #FishHaven {
-            grid-column: 2;
-            grid-row: 1;
-        }
-        #img-FishHaven {
-            grid-column: 1;
-            grid-row: 1;
-        }
-        #events {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: auto;
         }
-        #sodasprings-event {
+        iframe {
             grid-column: 1;
         }
-        #fishhaven-event {
+        .contacts-data {
             grid-column: 2;
         }
-        #preston-event {
-            grid-column: 3;
+        form fieldset {
+            margin: 1rem 5rem;
+        }
+        .info input {
+            height: 20rem;
+            width: 30rem;
+            padding: 1rem;
+        }
+        input.submitBtn {
+            border-radius: 1rem;
+            margin: 1rem 5rem;
+            height: 2.5rem;
+        }
+        form label.top input,
+        form label.top select {
+            width: 80%;
+            display: flex;
+            margin: auto;
+            height: 2rem;
+        }
+        fieldset p {
+            margin: 1rem 5rem;
+            display: flex;
         }
     }

@@ -1,0 +1,11 @@
+main img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+main h1,
+main h2,
+main h3 {
+    text-align: center;
+}

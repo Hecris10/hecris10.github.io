@@ -46,45 +46,38 @@
         .hero {
             position: relative;
         }
-        #sections {
-            margin: auto 4rem;
+        .summary {
+            position: absolute;
+            top: 25px;
+            left: 50px;
+            padding: .5rem;
         }
-        .card {
+        .article-div img {
+            float: right;
+            position: relative;
+            padding: 1.4rem;
+            width: 50%;
+        }
+        .contato {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-row: auto;
-            margin: .5rem;
-        }
-        #SodaSprings,
-        #Preston {
-            grid-column: 1;
-            grid-row: 1;
-        }
-        #img-SodaSprings,
-        #img-Preston {
-            grid-column: 2;
-            grid-row: 1;
-        }
-        #FishHaven {
-            grid-column: 2;
-            grid-row: 1;
-        }
-        #img-FishHaven {
-            grid-column: 1;
-            grid-row: 1;
-        }
-        #events {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: auto;
         }
-        #sodasprings-event {
+        iframe {
             grid-column: 1;
         }
-        #fishhaven-event {
+        .contacts-data {
             grid-column: 2;
         }
-        #preston-event {
-            grid-column: 3;
+        .forecast {
+            display: flex;
+        }
+        .day {
+            width: 700000px;
+        }
+        .day img {
+            width: 80%;
+            display: flex;
+            margin: 0 auto;
         }
     }

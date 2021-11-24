@@ -1,0 +1,59 @@
+body {}
+
+h1 {
+    color: #4D4D96;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: #4D4D96;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+.cards {
+    margin: auto;
+    background-color: grey;
+    padding: 2rem;
+}
+
+section {
+    background-color: #B8B8CB;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #B8B8CB;
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+    color: #4D4D96;
+}
+
+@media only screen and (min-width: 45rem) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        gap: 2rem;
+    }
+    section {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 65rem) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2rem;
+        margin: auto;
+    }
+}
