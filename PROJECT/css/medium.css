@@ -1,0 +1,46 @@
+@media only screen and (min-width: 32.5rem) {
+    /**********MENU*********/
+    .navigation {
+        display: inline-flex;
+        vertical-align: top;
+    }
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+        padding: 10px;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    header {
+        display: inline;
+    }
+    header img {
+        position: static;
+        width: 100px;
+        margin: 0 50px;
+        padding: 0;
+    }
+    /***********FOOTER*****************/
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto
+    }
+    .address {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .social-media {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .pages {
+        grid-column: 2;
+        grid-row: 1;
+    }
+}
