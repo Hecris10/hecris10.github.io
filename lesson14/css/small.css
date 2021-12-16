@@ -1,16 +1,20 @@
 /*menu*/
 
+body {
+    max-width: 420px;
+    background-color: #F5F5F5;
+}
+
 header {
     display: inline;
     width: 100%;
 }
 
 header img {
-    width: 50px;
+    width: 150px;
     padding: 0;
-    margin: 0;
-    position: absolute;
-    margin-top: 16px;
+    margin: auto;
+    display: flex;
 }
 
 nav {
@@ -73,7 +77,8 @@ footer {
     background-color: #404040;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto
+    grid-template-rows: auto;
+    border-radius: 10px;
 }
 
 .address {
@@ -111,4 +116,127 @@ footer {
 .social-media img {
     width: 50px;
     margin: 0 1rem;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+
+/**********MAIN CONTENT***************/
+
+.welcome {
+    width: 320px;
+}
+
+.welcome h1 {
+    color: #C4781F;
+    text-align: center;
+}
+
+.welcome img {
+    width: 320px;
+    height: auto;
+    margin: 1rem auto;
+    display: flex;
+}
+
+.welcome p {
+    text-align: justify;
+}
+
+
+/*slide*/
+
+.slide {
+    display: flex;
+    margin: 1rem auto;
+    width: 320px;
+    height: 300px;
+}
+
+.mySlides img {
+    width: 78%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.mySlides p {
+    text-align: center;
+}
+
+.join {
+    text-align: center;
+    background-color: #404040;
+    color: #C4781F;
+    width: 90%;
+    height: 100px;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.join button {
+    background-color: #C4781F;
+    color: #404040;
+    border-radius: 10px;
+}
+
+.current {
+    width: 100%;
+    background-color: #404040;
+    margin: auto;
+    padding: 1rem 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.current h3 {
+    color: #C4781F;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+#current-name {
+    font-size: 30px;
+}
+
+.current p {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+.current img {
+    margin: 0 auto;
+    display: flex;
+}
+
+.threedays {
+    background-color: #C4781F;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.threedays h3 {
+    color: #C4781F;
+    text-align: center;
+    font-size: 30px;
+}
+
+.threedays p {
+    text-align: center;
+    margin: 0;
+    color: white;
+    padding: 1rem;
+}
+
+.threedays img {
+    margin: 0 auto;
+    display: flex;
 }

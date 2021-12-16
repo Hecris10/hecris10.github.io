@@ -1,0 +1,32 @@
+main img {
+    width: 320px;
+    margin: auto
+}
+
+main h1 {
+    color: #C4781F;
+    text-align: center;
+}
+
+main p {
+    text-align: justify;
+}
+
+.events {
+    background-color: #404040;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.events p {
+    color: white;
+    text-align: center;
+}
+
+main h2,
+main h3 {
+    color: #C4781F;
+    text-emphasis: none;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+@media only screen and (min-width: 65rem) {
+    main {
+        max-width: 75%;
+    }
+    main h1 {
+        font-size: 80px;
+    }
+    .hero {
+        width: 40%;
+        margin: 3rem auto;
+        display: flex;
+    }
+    .grid img {
+        width: 75%;
+    }
+}

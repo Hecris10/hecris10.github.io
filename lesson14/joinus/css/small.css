@@ -1,0 +1,23 @@
+fieldset {
+    flex: auto;
+    margin: .5rem auto;
+    max-width: 500px;
+    padding: 1rem;
+}
+
+input {
+    display: block;
+}
+
+label {
+    text-align: left;
+}
+
+.member {
+    display: block;
+    padding: 1rem;
+}
+
+.radio {
+    display: inline-block;
+}

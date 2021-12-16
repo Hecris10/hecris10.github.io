@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint Louis Commerce</title>
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="stylesheet" href="./joinus/css/small.css">
+    <link rel="stylesheet" href="./joinus/css/medium.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <ul class="navigation">
+                <li>
+                    <a class="ham" href="#">
+                        <p>&#9776;</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <p>HOME</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sanluois.html">
+                        <p>Saint Louis</p>
+                    </a>
+                </li>
+                <li>
+                    <a class='active' href="#">
+                        <p>Join Us</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./directory.html">
+                        <p>Directory</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        <p>Contact</p>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+        <img class='logo' alt='Logo' src="./images/logo.png">
+    </header>
+
+    <body>
+        <main>
+            <form method="get" action='./submit.html'>
+                <fieldset class='field'>
+                    <legend>Personal Information</legend>
+                    <label for="fname">First Name:</label>
+                    <input required type="text" name="first_name" id="f-name">
+
+                    <label for='lname'>Last Name:</label>
+                    <input required type="text" name="last_name" id="l-name">
+                    <label for='title'>Title:</label>
+                    <input required type="text" name="title" id="title">
+
+
+                    <label for='email'>Email:</label>
+                    <input required type="email" name="email" id="email">
+
+                    <label for='phone'>Phone(9999-999):</label>
+                    <input type='tel' id='phone' name='phone' pattern="[0-9]{4}-[0-9]{3}">
+                </fieldset>
+                <fieldset class='field'>
+                    <legend>Business Information</legend>
+                    <label for='business-name'>Business Name:</label>
+                    <input required type="text" id='business-name' name='business-name'>
+
+                    <label for='business-adress'>Business Address:</label>
+                    <input type='text' id='business-address' name='business-address'>
+
+                    <label for='business-site'>Business Website:</label>
+                    <input type='text' id='business-website' name='business-website'>
+                </fieldset>
+                <fieldset class='rdio'>
+                    <legend>Membership Information</legend>
+                    <label class='member' for='membership'>Select your Membership Level</label>
+                    <label class="sbs"><input class='radio' type="radio" name="membership" value="non-profit">Non-profit ($100)</input></label>
+                    <label class="sbs"><input class='radio' type="radio" name="membership" value="bronze">Bronze ($200)</input></label>
+                    <label class="sbs"><input  class='radio' type="radio" name="membership" value="silver">Silver ($400)</input></label>
+                    <label class="sbs"><input  class='radio' type="radio" name="membership" value="gold">Gold ($1000)</input></label>
+                </fieldset>
+                <div class="btn">
+                    <button type="submit" action='./submit.html'><p>Submit</p></button>
+                </div>
+
+
+            </form>
+        </main>
+        <footer>
+            <div class="address">
+                <p>© Greater St. Louis, Inc. 2021, One Metropolitan Square, Suite 1300, St. Louis MO 63102</p>
+                <p>5555-5555</p>
+            </div>
+            <div class="social-media ">
+                <a href="#"><img src="./images/instagram.png " alt="instagram "></a>
+                <a href="#"><img src="./images/facebook.png " alt='facebook'></a>
+
+
+            </div>
+            <div class="pages ">
+                <a>
+                    <p>Home</p>
+                </a>
+
+                <a href="./sanluois.html ">
+                    <p>Saint Louis</p>
+                </a>
+
+                <a href="./joinus.html ">
+                    <p>Join Us</p>
+                </a>
+
+                <a href="./directory.html ">
+                    <p>Directory</p>
+                </a>
+
+                <a href="./contact.html ">
+                    <p>Contact</p>
+                </a>
+            </div>
+
+        </footer>
+        <script src="./js/script.js "></script>
+    </body>
+
+</html>

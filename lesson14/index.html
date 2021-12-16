@@ -8,6 +8,7 @@
     <title>Saint Louis Commerce</title>
     <link rel="stylesheet" href="./css/small.css">
     <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 
@@ -15,7 +16,7 @@
     <header>
 
         <nav>
-            <img class='logo' alt='Logo' src="./logo.png">
+
             <ul class="navigation">
                 <li>
                     <a class="ham" href="#">
@@ -50,42 +51,97 @@
 
             </ul>
         </nav>
+        <img class='logo' alt='Logo' src="./images/logo.png">
     </header>
-    <main></main>
+    <main>
+        <div class="welcome container">
+            <h1>Welcome to Saint Louis Commerce Chamber</h1>
+            <img src="./images/saintlouis.jpg" alt="Saint Louis City">
+            <p>St. Louis or Saint Louis is an independent city, located in the US state of Missouri, on the border with the state of Illinois. Located at the confluence of the Mississippi River and the Missouri River, it is one of the main cities in the
+                American Midwest. According to the 2017 Economic Census, manufacturing in the St. Louis, MO-IL metro area conducted $53.3 billion in business, followed by the retail trade with $51.3 billion, the healthcare and social service industry
+                with $22.5 billion, and professional, scientific, and technical services with $15.1 billion.</p>
+        </div>
+
+        <div class="grid2 container">
+            <div class="slide">
+                <div class="mySlides">
+                    <p><b>Dunder Mifflin is getting crazy!!!!</b></p>
+                    <img alt='dunder' src="./images/ads1.png">
+                    <p><i>Get to know the best paper supplier for you company</i></p>
+                </div>
+
+                <div class='mySlides'>
+                    <img src='./images/ads2.jpg' alt='athlead'>
+                    <p>A new Sports concept is coming to Saint Louis</p>
+                </div>
+
+                <div class="mySlides">
+                    <img src="./images/ads3.png" alt='wuph'>
+                </div>
+
+            </div>
+
+            <div class="join">
+                <p>Discover how YOU can improve your business</p>
+                <button onclick="window.location.href='/joinus.html'">Join Us</button>
+            </div>
+        </div>
+
+        <div clas='weather'>
+            <div class="current">
+                <h3>Weather FORECAST</h3>
+                <p id='current-name'><span></span></p>
+                <img id='currentIco' alt='currentTemp'>
+                <p><span id='current-temp'></span> Fº</p>
+                <p id='current-condition'><span></span></p>
+                <p>Humidity: <span id='current-humidity'></span></p>
+            </div>
+            <div class="threedays">
+
+                <div id='day1'></div>
+                <div id='day2'></div>
+                <div id='day3'></div>
+            </div>
+        </div>
+
+    </main>
     <footer>
         <div class="address">
             <p>© Greater St. Louis, Inc. 2021, One Metropolitan Square, Suite 1300, St. Louis MO 63102</p>
+            <p>5555-5555</p>
         </div>
-        <div class="social-media">
-            <a href="#"><img src="./images/instagram.png" alt="instagram"></a>
-            <a href="#"><img src="./images/facebook.png" alt='facebook'></a>
+        <div class="social-media ">
+            <a href="#"><img src="./images/instagram.png " alt="instagram "></a>
+            <a href="#"><img src="./images/facebook.png " alt='facebook'></a>
 
 
         </div>
-        <div class="pages">
+        <div class="pages ">
             <a>
                 <p>Home</p>
             </a>
 
-            <a href="./sanluois.html">
+            <a href="./sanluois.html ">
                 <p>Saint Louis</p>
             </a>
 
-            <a href="./joinus.html">
+            <a href="./joinus.html ">
                 <p>Join Us</p>
             </a>
 
-            <a href="./directory.html">
+            <a href="./directory.html ">
                 <p>Directory</p>
             </a>
 
-            <a href="./contact.html">
+            <a href="./contact.html ">
                 <p>Contact</p>
             </a>
         </div>
 
     </footer>
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js "></script>
+    <script src="./js/slide.js "></script>
+    <script src="./js/weather.js"></script>
 </body>
 
 </html>
