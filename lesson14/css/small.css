@@ -1,8 +1,9 @@
 /*menu*/
 
 body {
-    max-width: 420px;
+    max-width: 100%;
     background-color: #F5F5F5;
+    margin: auto;
 }
 
 header {
@@ -11,9 +12,9 @@ header {
 }
 
 header img {
-    width: 150px;
+    width: 250x;
     padding: 0;
-    margin: auto;
+    margin: 1rem auto;
     display: flex;
 }
 
